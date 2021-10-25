@@ -18,12 +18,17 @@ public class Cigarparty {
 	                result = false;
 	            }
 	            return result;
-
-	}
+	        }
+		 
 		 public static void main(String[] args) {
 				// TODO Auto-generated method stub
-		 boolean c =CigarParty(61, false);
-         System.out.println(c);
+		 boolean c =CigarParty(30, false);
+		 System.out.println(c);
+		 boolean c1 =CigarParty(50, false);
+		 System.out.println(c1);
+		 boolean c2 =CigarParty(70, false);
+		 System.out.println(c2);
+         
 		 }
 		 
 }
